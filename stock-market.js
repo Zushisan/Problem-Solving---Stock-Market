@@ -53,7 +53,7 @@ function maxSolution(bestmax, array){
 // FUNCTION THAT RUNS OUR CHECKS
 function bestProfit(array){
   var step1 = removeEdges(array);
-  for( i = 1; i > 0; ){
+  for( i = 1; i < array.length; i++ ){
 
     var stepMin = bestMin(step1);
     var stepMax = bestMax(step1);
