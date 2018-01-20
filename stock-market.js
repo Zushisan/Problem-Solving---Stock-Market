@@ -90,3 +90,6 @@ message(bestProfit(testArray2));
 message(bestProfit(testArray3));
 message(bestProfit(testArray4));
 message(bestProfit(testArray5));
+
+
+// TODO: TEST FUNCTION, REFACTOR THE WAY OF CALLING: message(bestProfit(testArray)); <===
